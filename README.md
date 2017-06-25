@@ -29,3 +29,9 @@ Contributors
 Requires
 ========
 Python v2.7+ but see requirements.txt for a full list
+
+Deployment
+==========
+virtualenv --python=python2.7 pyenv
+source pyenv/bin/activate
+pip install flask

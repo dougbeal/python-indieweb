@@ -1,0 +1,3 @@
+PassengerEnabled on
+PassengerAppRoot /home/%USER%/xn--sr8hvo.flask
+PassengerPython /home/%USER%/pyenv/bin/python
