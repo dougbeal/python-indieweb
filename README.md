@@ -16,6 +16,8 @@ Currently the following Indieweb items are implemented:
 * [IndieAuth Login](http://indiewebcamp.com/indieauth)
   * Supports using indieauth.com as an authorization service
 
+Install dependencies: 
+    pip install -r requirements.txt 
 
 To run locally:
     python indieweb.py --logpath . --port 9999 --host 127.0.0.1 --config ./indieweb.cfg
