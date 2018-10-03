@@ -22,9 +22,16 @@ Install dependencies:
 To run locally:
     python indieweb.py --logpath . --port 9999 --host 127.0.0.1 --config ./indieweb.cfg
 
+
+Docker
+docker build . -t python-indieweb:latest
+docker run -d -p 9999:9999 python-indieweb
+
+
 Contributors
 ============
-* bear (Mike Taylor)
+* bear (Mike Taylor) https://bear.im
+* dougbeal (Douglas Beal) https://dougbeal.com
 
 Requires
 ========
